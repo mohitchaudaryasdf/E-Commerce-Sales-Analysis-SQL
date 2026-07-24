@@ -1,14 +1,24 @@
 # 🛒 E-Commerce Sales Analysis Using SQL
 
-## 📌 Overview
+## 📖 Project Overview
 
-This project demonstrates SQL-based analysis of an E-Commerce sales database using MySQL. It focuses on extracting meaningful business insights from transactional data through practical SQL queries.
-
-The project covers customer analysis, product analysis, sales trends, revenue analysis, and order performance using a relational database.
+This project demonstrates SQL-based analysis of an E-Commerce sales database using MySQL. It focuses on analyzing customer behavior, product performance, sales trends, and revenue through practical business-oriented SQL queries.
 
 ---
 
-## 🛠️ Technologies Used
+## 🎯 Project Objectives
+
+- Analyze customer purchasing behavior
+- Evaluate product performance
+- Calculate business revenue
+- Analyze customer spending
+- Identify customers with maximum orders
+- Track new customer growth over time
+- Practice SQL using real-world business scenarios
+
+---
+
+## 🛠️ Tools & Technologies
 
 - MySQL
 - MySQL Workbench
@@ -17,20 +27,22 @@ The project covers customer analysis, product analysis, sales trends, revenue an
 
 ---
 
-## 📂 Database Tables
+## 🗄️ Database Tables
 
-- Customers
-- Products
-- Orders
-- Order_Items
-- Payments
+| Table | Description |
+|--------|-------------|
+| Customers | Customer Information |
+| Products | Product Information |
+| Orders | Order Details |
+| Order_Items | Ordered Products |
+| Payments | Payment Details |
 
 ---
 
 ## 📊 Dataset Summary
 
 | Table | Records |
-|------|--------:|
+|--------|---------:|
 | Customers | 500 |
 | Products | 100 |
 | Orders | 1000 |
@@ -45,9 +57,9 @@ The project covers customer analysis, product analysis, sales trends, revenue an
 
 - SELECT
 - WHERE
+- ORDER BY
 - GROUP BY
 - HAVING
-- ORDER BY
 - Aggregate Functions
 - INNER JOIN
 - LEFT JOIN
@@ -59,19 +71,20 @@ The project covers customer analysis, product analysis, sales trends, revenue an
 
 ---
 
-## 📈 Business Analysis
+## 📈 Business Analysis Performed
 
-The project solves more than **50 business-oriented SQL queries**, including:
+This project contains **50+ SQL queries** covering:
 
-- Total Revenue
-- Customer Spending Analysis
-- Average Revenue Per Customer
-- Customer with Maximum Orders
-- New Customers by Year
-- Total Quantity Sold by Product
-- Revenue Reports
-- Product Performance Analysis
 - Database Overview
+- Total Revenue Analysis
+- Average Revenue Per Customer
+- Customer Spending Analysis
+- Customer Order Analysis
+- Product Sales Analysis
+- Total Quantity Sold by Product
+- New Customer Analysis
+- Revenue Reporting
+- Product Performance Analysis
 
 ---
 
@@ -79,65 +92,64 @@ The project solves more than **50 business-oriented SQL queries**, including:
 
 ## ER Diagram
 
-![ER Diagram](Screenshots/ER_Diagram.png)
+![ER Diagram](Screenshots/ER%20Diagram.png)
 
 ---
 
 ## Total Revenue
 
-![Total Revenue](Screenshots/total_revenue.png)
+![Total Revenue](Screenshots/total%20revenue.png)
 
 ---
 
 ## Average Revenue Per Customer
 
-![Average Revenue](Screenshots/avg_revenue_per_customer.png)
+![Average Revenue](Screenshots/avg%20revenue%20per%20customer.png)
 
 ---
 
 ## Customer With Maximum Orders
 
-![Maximum Orders](Screenshots/customer_with_maximum_orders.png)
+![Customer With Maximum Orders](Screenshots/customer%20with%20maximum%20orders.png)
 
 ---
 
 ## New Customer By Year
 
-![New Customers](Screenshots/new_customer_by_year.png)
+![New Customer By Year](Screenshots/new%20customer%20by%20year.png)
 
 ---
 
 ## Total Quantity Sold By Product
 
-![Quantity Sold](Screenshots/total_quantity_sold_by_product.png)
+![Total Quantity Sold](Screenshots/total%20quantity%20sold%20by%20product.png)
 
 ---
 
 ## Total Spend By Customer
 
-![Customer Spend](Screenshots/total_spend_by_customer.png)
+![Total Spend By Customer](Screenshots/total%20spend%20by%20customer.png)
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```
 E-Commerce-Sales-Analysis-SQL
 │
 ├── README.md
-├── SQL
-│   ├── 01_create_tables.sql
-│   ├── 02_insert_data.sql
-│   └── 03_queries.sql
+├── table_creation.sql
+├── 02_insert_data.sql
+├── queries_for_ecommerce.sql
 │
 └── Screenshots
-    ├── ER_Diagram.png
-    ├── total_revenue.png
-    ├── avg_revenue_per_customer.png
-    ├── customer_with_maximum_orders.png
-    ├── new_customer_by_year.png
-    ├── total_quantity_sold_by_product.png
-    └── total_spend_by_customer.png
+    ├── ER Diagram.png
+    ├── avg revenue per customer.png
+    ├── customer with maximum orders.png
+    ├── new customer by year.png
+    ├── total quantity sold by product.png
+    ├── total revenue.png
+    └── total spend by customer.png
 ```
 
 ---
@@ -145,9 +157,9 @@ E-Commerce-Sales-Analysis-SQL
 ## ⭐ Key Highlights
 
 - Designed a relational E-Commerce database.
-- Managed 5600+ records across five tables.
-- Solved 50+ business-focused SQL queries.
-- Applied Joins, Aggregate Functions, Subqueries, Views, and Window Functions.
+- Managed **5600+ records** across five tables.
+- Solved **50+ business-oriented SQL queries**.
+- Used SQL Joins, Aggregate Functions, Subqueries, Views, and Window Functions.
 - Generated meaningful business insights from sales data.
 
 ---
@@ -165,3 +177,7 @@ E-Commerce-Sales-Analysis-SQL
 **Mohit Chaudhary**
 
 Aspiring Data Analyst
+
+---
+
+⭐ If you found this project useful, consider giving it a Star.
